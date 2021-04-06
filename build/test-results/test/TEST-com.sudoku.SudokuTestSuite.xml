@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.sudoku.SudokuTestSuite" tests="16" skipped="0" failures="0" errors="0" timestamp="2021-04-06T14:00:05" hostname="DESKTOP-LQVCQEI" time="1.397">
+  <properties/>
+  <testcase name="Testing the isInDifferentField method" classname="com.sudoku.SudokuTestSuite" time="0.016"/>
+  <testcase name="Testing if processSection method moves values to main board section in correct order" classname="com.sudoku.SudokuTestSuite" time="0.002"/>
+  <testcase name="Testing if injectColumn method injects column in correct way" classname="com.sudoku.SudokuTestSuite" time="0.001"/>
+  <testcase name="Testing process method for solving basic sudoku example board" classname="com.sudoku.SudokuTestSuite" time="0.012"/>
+  <testcase name="Testing process method for solving basic sudoku example board 4" classname="com.sudoku.SudokuTestSuite" time="1.315"/>
+  <testcase name="Testing if processColumn method moves values to main board column in correct order" classname="com.sudoku.SudokuTestSuite" time="0.0"/>
+  <testcase name="Testing process method for solving basic sudoku example board 2" classname="com.sudoku.SudokuTestSuite" time="0.038"/>
+  <testcase name="Testing if algorithm adds first value from remaining choices array where there is no use of such value neither in all remaining fields or theirs remainingChoice arrays" classname="com.sudoku.SudokuTestSuite" time="0.0"/>
+  <testcase name="Testing if extractColumn method extracts column in correct way" classname="com.sudoku.SudokuTestSuite" time="0.001"/>
+  <testcase name="Testing if injectSection method injects section in correct way" classname="com.sudoku.SudokuTestSuite" time="0.0"/>
+  <testcase name="Testing if algorithm adds last missing value on the beginning of the row" classname="com.sudoku.SudokuTestSuite" time="0.001"/>
+  <testcase name="Testing if extractSection method extracts section in correct way" classname="com.sudoku.SudokuTestSuite" time="0.001"/>
+  <testcase name="Testing if algorithm adds last missing value on the end of the row" classname="com.sudoku.SudokuTestSuite" time="0.0"/>
+  <testcase name="Testing if board is cloned correctly" classname="com.sudoku.SudokuTestSuite" time="0.0"/>
+  <testcase name="Testing if algorithm throws &quot;OutOfChoicesException&quot; when field has only one option in remainingChoices arraywhich has been used in different place in row, column or section" classname="com.sudoku.SudokuTestSuite" time="0.001"/>
+  <testcase name="Testing if algorithm adds last missing value on the middle of the row" classname="com.sudoku.SudokuTestSuite" time="0.0"/>
+  <system-out><![CDATA[| . 2 . | . . . | . . . |
+| . . . | 6 . . | . . 3 |
+| . 7 4 | . 8 . | . . . |
+| - - - + - - - + - - - |
+| . . . | . . 3 | . . 2 |
+| . 8 . | . 4 . | . 1 . |
+| 6 . . | 5 . . | . . . |
+| - - - + - - - + - - - |
+| . . . | . 1 . | 7 8 . |
+| 5 . . | . . 9 | . . . |
+| . . . | . . . | . 4 . |
+
+| 1 2 6 | 4 3 7 | 9 5 8 |
+| 8 9 5 | 6 2 1 | 4 7 3 |
+| 3 7 4 | 9 8 5 | 1 2 6 |
+| - - - + - - - + - - - |
+| 4 5 7 | 1 9 3 | 8 6 2 |
+| 9 8 3 | 2 4 6 | 5 1 7 |
+| 6 1 2 | 5 7 8 | 3 9 4 |
+| - - - + - - - + - - - |
+| 2 6 9 | 3 1 4 | 7 8 5 |
+| 5 4 8 | 7 6 9 | 2 3 1 |
+| 7 3 1 | 8 5 2 | 6 4 9 |
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

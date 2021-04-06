@@ -1,0 +1,3 @@
+com/sudoku/SudokuTestSuite.java
+ com.sudoku.SudokuTestSuite
+ com.sudoku.SudokuTestSuite$BoardChecker
